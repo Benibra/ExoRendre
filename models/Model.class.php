@@ -5,7 +5,7 @@
       
 
         private static function setBdd(){
-            self::$pdo = new PDO("mysql:host=localhost;dbname=nano;charset=utf8","root","");
+            self::$pdo = new PDO("mysql:host=localhost;dbname=employe;charset=utf8","root","");
             self::$pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
         }
     
